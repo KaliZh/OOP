@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/naka/MEPhI/C++/nazz/header.h
+iostream
+-
+cmath
+-
+string
+-
+
+/home/naka/MEPhI/C++/nazz/tests.cpp
+gtest/gtest.h
+-
+/home/naka/MEPhI/C++/nazz/header.h
+-
+

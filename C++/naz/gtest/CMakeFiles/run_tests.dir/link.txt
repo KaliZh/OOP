@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/run_tests.dir/naztest.cpp.o  -o run_tests -rdynamic -Wl,-Bstatic -lgtest_main -lgtest -Wl,-Bdynamic -lpthread 

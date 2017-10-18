@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/naka/MEPhI/C++/day2/gtest/var7test.cpp
+gtest/gtest.h
+-
+/home/naka/MEPhI/C++/day2/var7.h
+-
+
+/home/naka/MEPhI/C++/day2/var7.h
+cmath
+-
+iostream
+-
+

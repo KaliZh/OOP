@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/naka/MEPhI/C++/test/gtest.cpp
+math.h
+-
+
+/home/naka/MEPhI/C++/test/gtests.cpp
+gtest.cpp
+/home/naka/MEPhI/C++/test/gtest.cpp
+gtest/gtest.h
+-
+
