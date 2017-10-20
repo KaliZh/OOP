@@ -1,0 +1,3 @@
+/home/naka/MEPhI/C++/day4/CMakeFiles/edit_cache.dir
+/home/naka/MEPhI/C++/day4/CMakeFiles/rebuild_cache.dir
+/home/naka/MEPhI/C++/day4/CMakeFiles/run_tests.dir

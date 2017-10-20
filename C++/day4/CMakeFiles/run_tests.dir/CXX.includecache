@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/naka/MEPhI/C++/day4/var1.cpp
+string.h
+-
+var1.h
+/home/naka/MEPhI/C++/day4/var1.h
+
+/home/naka/MEPhI/C++/day4/var1.h
+iostream
+-
+limits
+-
+exception
+-
+
+/home/naka/MEPhI/C++/day4/var1test.cpp
+gtest/gtest.h
+-
+/home/naka/MEPhI/C++/day4/var1.cpp
+-
+
